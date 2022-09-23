@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+h1{
+  margin: 0px !important;
+}
+
+
+h2{
+  margin: 0px !important;
+}
+
+h3{
+  margin: 0px !important;
+}
+
+h4{
+  margin: 0px !important;
+}
+
+h5{
+  margin: 0px !important;
+}
+
+h6{
+  margin: 0px !important; 
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    font-family: cursive !important;
+}
+
+
+p{
+  margin: 0px !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pareceboton{
+  appearance: auto;
+  margin: 5px !important;
+  writing-mode: horizontal-tb !important; 
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  text-decoration: none;
+}
+.titulo2{
+  font-weight: 600;
+  margin: 0%;
+  padding: 0%;
+}
+
+.todo{ 
+  padding: 0% 0%;
+  display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.section1{
+  width: 100%;
+  background-color: #afb6d7;
+}
+.section2{ 
+  padding-top: 5%;
+  width: 100%;
+  background-color: burlywood;
+}
+
+.section3{
+  width: 100%;
+  background-color: #afb6d7;
+}
+
+
+.sectionoctavos{
+  width: 100%;
+  background-color: burlywood;
+}
+.sectioncuartos{
+  width: 100%;
+  background-color: #afb6d7;
+}
+.sectionsemi{
+  width: 100%;
+    background-color: burlywood;
+}
+.sectionhonor{
+  width: 100%;
+    background-color: #afb6d7;
+}
+.sectionfinal{
+  width: 100%;
+    background-color: burlywood;
+}
+
+.best{
+  text-align: center;
+  width: 100%;
+  display: flex;
+  background-color: #afb6d7;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goleador{
+  text-align: center;
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+    background-color: #afb6d7;
+}
+
+
+.www{
+  width: 100%;
+}
+.pts{
+  margin: 3px;
+  padding: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  width: max-content;
+  background-color: black;
+  color:  rgb(162, 255, 0);
+}
+
+.botonrojo{
+  cursor: pointer;
+      color: red;
+      background-color: lightblue;
+      margin: 20px;
+      display: flex; 
+      box-shadow: darkgrey 10px 5px 5px;
+      flex-direction: column;
+      align-items: center;
+      border-color: buttonborder;
+      border-radius: 10%;
+      border-style: outset;
+      border-width: 6px;
+      padding: 10px 19px;
+      box-sizing: border-box;
+  }
+
+.presentacion{ 
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 8%;
+  padding-right: 6%;
+  display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.definition{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: rgb(252, 242, 49) !important;
+}
+
+.chekeado{
+  padding: 20px 0px !important;
+  background-color: rgb(252, 242, 49) !important;
+  width: 100%;
+  text-align: center;
+}
+.finaltotal{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: rgb(252, 242, 49) !important;
+}
+
+.containerNavbar{
+  display: flex;
+  color: black;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none !important;
+} 
+ 
+
+.containerHome{ 
+  padding: 2.5px;
+  background: url("https://i.pinimg.com/originals/18/f4/48/18f448ab4131fea722e0763c137ab61a.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 633px;
+}
+
+.textNavbar{
+  color: black;
+  background-color: lightblue;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.containerFooter{
+  display: flex;
+  background-color: lightgreen;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 12px !important;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: flex-end;
+  padding-bottom: 5px; 
+}
+
+.containerPuntajes{
+  
+  padding: 2.5px;
+  background: url("https://i.pinimg.com/originals/18/f4/48/18f448ab4131fea722e0763c137ab61a.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 633px;
+}
+
+.containerApuestas{
+  background: url(https://www.diariolaprovinciasj.com/u/fotografias/fotosnoticias/2021/7/10/280572.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 633px;
+    background-position: -170px 0px;
+}
+
+.containerReglas{
+ 
+  padding: 2.5px;
+}
+
+.containerInicio1{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 38% !important;
+
+}
